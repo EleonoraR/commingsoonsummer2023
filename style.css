@@ -1,0 +1,64 @@
+html,
+body {
+  /*Image from pexels.com Author: Daniel Putzer*/
+  background: url(comp.jpeg) no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+  margin: 20px auto; 
+}
+
+h1 {
+  font-size: 3rem; 
+  color: #e2dbdb;
+}
+
+.buffer {
+  height: 20rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  --bs-btn-hover-bg: #ee4b08;
+  --bs-btn-hover-border-color: #ee4b08; 
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+  cursor: pointer;
+  --bs-btn-bg:#ee4b08;
+  --bs-btn-border-color: #ee4b08;
+  --bs-btn-hover-bg: #ee4b08;
+  --bs-btn-hover-border-color: #ee4b08; 
+}
+.btn-primary:active {
+  /*Not the best practice to use important(even though it works). I will change it shortly*/
+  background-color: #ee4b08!important;
+  border-color: #ee4b08!important;;
+  border-width: 4px;
+  cursor: pointer;
+  --bs-btn-bg:#ee4b08;
+  --bs-btn-border-color: #ee4b08;
+  --bs-btn-hover-bg: #ee4b08;
+  --bs-btn-hover-border-color: #ee4b08; 
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
